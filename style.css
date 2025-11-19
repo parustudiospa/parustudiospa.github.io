@@ -1,0 +1,100 @@
+/* Basic Reset and Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #8b008b; /* Deep Magenta/Purple for elegance */
+}
+
+/* Header Styling */
+header {
+    background-color: #ffe4e1; /* Light blush/Misty Rose */
+    color: #8b008b;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #8b008b;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* Main Content Layout */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Services List */
+#services ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+#services li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+/* Contact Section */
+.contact-info p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #8b008b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #5d005d;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
